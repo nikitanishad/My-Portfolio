@@ -2,14 +2,20 @@
 /* first point */
 
 @media screen and (max-width: 1164px){
+
+    .landing-page {
+        padding:0;
+    }
     .left{
-        margin: 100px 10px ;
+        margin: 230px 5px 230px 70px;
     }
     .left h2{
         font-size: 39px;
         letter-spacing: normal;
     }
-
+    .about{
+        padding: 0;
+    }
     .right-about{
         margin: 15px;
     }
@@ -21,9 +27,13 @@
         font-size: 18px;
     }
 
+    .heading h1 {
+        padding-top: 50px;
+    }
+
     .skill{
         gap: 50px;
-        padding: 20px 100px;
+        padding: 20px 50px;
     }
     .skill-right img{
         width: 500vw;
@@ -40,6 +50,16 @@
    .main i{
     display: block;
    }
+   .left{
+    margin: 150px 5px 150px 70px;
+   }
+
+   .heading h1 {
+    text-align: start;
+    margin-left: 35px;
+    padding-bottom: 50px;
+    font-size: 45px;
+   }
    .right img{
      width: 400px;
      height: 350px;
@@ -48,8 +68,20 @@
     flex-direction: column;
     overflow: hidden;
    }
-   .left-about img {
-    width: 90%;
+   .left-about img{
+    margin: 0;
+    width: 100%;
+    padding: 20px;
+   }
+   .right-about h2{
+    font-size: 40px;
+    font-weight: 700;
+   }
+   .right-about p {
+    font-size: 20px;
+   }
+   .right-about button{
+    
    }
    .linkdinBtn{
     margin-left: 10px;
@@ -57,6 +89,7 @@
 
    .skill{
     flex-direction: column;
+    align-items: flex-start;
    }
    .skil-right{
     display: none;
@@ -67,16 +100,7 @@
 
 @media screen  and (max-width:900px) {
     .main{
-        padding: 5px 20px;
-    }
-    .list{
-        gap: 50px;
-        font-size: 25px;
-        position: absolute;
-        right: -60;
-        top: 100%;
-        padding-block:10px;
-        transition: 0.5s;
+        padding: 5px 40px;
     }
 
     .landing-page{
@@ -84,11 +108,20 @@
         background-image: url(img/im.png);
         background-position: center;
         background-repeat: no-repeat;
-        padding: 100px;
+        padding: 20px;
         background: color #222;;
     }
     .right{
        display: none;
+    }
+
+    .contact {
+        padding: 50px 0;
+    }
+    .contact h2{
+        font-size: 35px;
+        text-align: start;
+        margin-left: 25px;
     }
 
     .contact-part{
@@ -96,13 +129,21 @@
         gap: 50px;
     }
 
+    .cantactInform{
+       text-align: start;
+    }
+
     .cantactFrom{
-        width: 60%;
+        width: 85%;
     }
 
     .skill-left{
-        padding: 100px;
-       }
+        padding: 0px;
+    }
+
+    .skill-left h2{
+      font-size: 25px;
+     }
 }
 
 /* 4th point */
