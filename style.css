@@ -311,7 +311,7 @@ span{
     width: 60px;
     height: 60px;
     border-radius: 50%;
-    background: #F0FFF0;
+    background:#F0FFF0;
     align-items: center;
     display: flex;
     justify-content: center;
@@ -324,7 +324,7 @@ span{
 }
 .locationText h4{
     font-size: 20px;
-    color: rgb(43, 182, 182);
+    color: #F0FFF0;
     margin-bottom: 3px;
     font-weight: 600;
     letter-spacing: 1px;
@@ -350,7 +350,7 @@ span{
 
 .phoneText h4{
     font-size: 20px;
-    color: rgb(43, 182, 182);
+    color: #F0FFF0;
     margin-bottom: 3px;
     font-weight: 600;
     letter-spacing: 1px;
@@ -368,7 +368,7 @@ span{
 
 .mailText h4{
     font-size: 20px;
-    color: rgb(43, 182, 182);
+    color: #F0FFF0;
     margin-bottom: 3px;
     font-weight: 600;
     letter-spacing: 1px;
@@ -441,9 +441,9 @@ span{
     font-size: 18px;
     padding: 10px;
     outline: none;
-    color: #221156;
+    color: #F0FFF0;
     border: none;
-    background-color: #42ecec;
+    background-color: #311d76;
 }
 
 

@@ -45,10 +45,27 @@
 
 @media screen and (max-width: 1060px){
     .list{
-        display: none;
+        /* display: none; */
+        position: absolute;
+        background-color:#221156;
+        top: 0;
+        left: -100;
+        width: 100%;
+        gap: 50px;
+        padding: 30px;
     }
+    .list.active{
+        left: 0;
+    }
+   /* use the dro dwon menu */
+   .list{
+    flex-direction: column;
+  }
+
    .main i{
     display: block;
+    overflow: initial;
+    position: relative;
    }
    .left{
     margin: 150px 5px 150px 70px;
@@ -148,9 +165,25 @@
 
 /* 4th point */
 
-@media screen  and (max-width:543px){
-    .main{
-        padding: 5px 25px;
+@media screen  and (max-width:500px){
+    .right-about p{
+        font-size: 18px;
     }
-} 
+    .skill{
+     width: 100%;
 
+    }
+    .skill-left{
+        width: 60%;
+    }
+    .progress-bar{
+        width:365px ;
+    }
+    .contact h2 {
+        font-size: 33px;
+    }
+    
+    .cantactInform{
+        width: 80%;
+    }
+}
